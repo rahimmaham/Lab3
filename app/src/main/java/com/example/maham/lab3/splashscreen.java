@@ -18,8 +18,12 @@ public class splashscreen extends Activity {
             public void run() {
               Intent i =new Intent(splashscreen.this,MainActivity.class);
               startActivity(i);
+              finish();
             }
         },5*1000);
-        finish();
+
+
+
     }
 }
+
